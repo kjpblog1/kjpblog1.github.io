@@ -1,0 +1,502 @@
+#container{
+	width: 90%; 
+	background-color: #EBF5FF;
+	height:auto;
+	margin: 0 auto;
+}
+#top{
+	position: realtive;
+	width: 100%;
+	height: auto;
+	background-color: #EBF5FF;
+}
+#kgplogo{
+	position: realtive;
+	height:200px;
+	max-height: 300px;
+	width:25%;
+	background-image: url(logo.png);
+	background-size: 80%100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: auto;
+}
+#toptext{
+	position: absolute;
+	top: 40px;
+	left:29%;
+	height:auto;
+	font-size: 40px;
+	width:25%;
+	max-width: 275px;
+	max-height: 150px;
+	font-weight: bold;
+	font-family: Segoe UI light;
+	text-align: center;
+	overflow: auto;
+}
+.verticalline{
+	position: absolute;
+	left: 54%;
+	top: 50px;
+	width:2px;
+	background-color: #6E6E6E;
+	height: 150px;
+}
+#myblog{
+	position: absolute;
+	font-family: Segoe UI light;
+	font-size: 30px;
+	text-align: center;
+	top: 75px;
+	left: 57%;
+	width: 35%;
+	max-height: 130px;
+	overflow: auto;
+	color: blue;
+}
+#navigation{
+	position: relative;
+	left:0.2%;
+	width: 99.60%;
+	background-color: rgb(0, 32, 50);
+	height: 50px;
+	
+}
+#home{
+	position: absolute;
+	left: 10%;
+	height: 100%;
+	width:100px;
+	text-align: center;
+	max-width: 150px;
+	max-height: 50px;
+	overflow: auto;
+}
+.textnav{
+	vertical-align: middle;
+	font-size: 25px;
+	font-family: Segoe UI light;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+}
+#home:hover,#articles:hover,#signup:hover{
+	curosr:pointer;
+	cursor:hand;
+	background-color: #585858;
+	transition: 0.2s ease;
+}
+#articles{
+	position: absolute;
+	left: 24%;
+	height: 100%;
+	width: 100px;
+	max-width: 150px;
+	max-height: 50px;
+	text-align: center;
+	overflow: auto;
+}
+#signup{
+	position: absolute;
+	left: 38%;
+	height: 100%;
+	width: 110px;
+	text-align: center;
+	max-width: 150px;
+	overflow: auto;
+}
+#container2{
+	position: relative;
+	width: 98%;
+	height:auto;
+	margin: 0 auto;
+	background-color: white;
+}
+#leftp{
+	position: relative;
+	height: 1500px;
+	width: 70%;
+}
+#leftp1{
+	position: relative;
+	height: 960px;
+	width: 70%;
+	overflow:auto;
+}
+#article1{
+	position: absolute;
+	width:80%;
+	left:10%;
+	top:50px;
+	height: 500px;
+	background-color: #EBF5FF;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+}
+#header{
+	position: absolute;
+	top:5%;
+	left: 10%;
+	width:70%;
+	height: auto;
+	font-size: 25px;
+	font-family: Impact, Charcoal, sans-serif;
+	color: black;
+	text-align: left;
+}
+#image1{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+	height: 70%;
+	background-image: url(image1.jpg);
+	background-size: 100%100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#time1{
+	position: absolute;
+	top: 470px;
+	left: 10%;
+	width: auto;
+	height: auto;
+	max-height: 50px;
+	max-width: 250px;
+	font-size: 18px;
+	font-family: Segoe UI light;
+}
+#article2{
+	position: absolute;
+	width:80%;
+	left:10%;
+	top:600px;
+	height: 500px;
+	background-color: #EBF5FF;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+}
+#image2{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+	height: 70%;
+}
+#vertical{
+	position: absolute;
+	top:50px;
+	width: 2px;
+	height: 90%;
+	background-color: #6E6E6E;
+	left:70%;
+}
+#rightportion{
+	position: absolute;
+	top:0px;
+	left:71%;
+	width: 29%;
+	height: 700px;
+}
+#login{
+	position: absolute;
+	top:5px;
+	width:80%;
+	left:10%;
+	height:auto;
+	font-size: 20px;
+	color:black;
+	text-align: center; 
+}
+#log{
+	position: absolute;
+	top: 80px;
+	width: 80%;
+	height: 100px;
+	left: 10%;
+}
+#morestory{
+	position: absolute;
+	top:375px;
+	width: 90%;
+	left:5%;
+	height: auto;
+	max-height: 50px;
+	overflow: auto;
+}
+.boxdesign{
+	width:100%;
+	height:35px;
+	border:1px;
+	border-style: solid;
+	border-color: black;
+	padding-left:3%;
+	background-color:#EBF5FF;
+}
+input#submitbutton{
+	cursor:pointer;
+	position: absolute;
+	top: 230px;
+	width: 50%;
+	height:25px;
+	background-color: #6b6dbb;
+	color: white;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+#heading{
+	text-align: center;
+	color:#08088A;
+	font-size:20px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+a.text{
+	font-size:18px;
+	word-spacing: 1px;
+	color:blue;
+	font-family:Segoe UI light;
+	text-decoration:none;
+	text-align:left;
+}
+#list{
+	position: absolute;
+	top:425px;
+	left: 5%;
+	width: 90%;
+	height:60%;
+	max-height: 500px;
+	max-width: 500px;
+	overflow: auto;
+}
+#comment{
+	position: absolute;
+	top: 1150px;
+	left:10%;
+	width: auto;
+	height: auto;
+	font-size: 20px;
+	font-family: Roboto,arial,sans-serif;
+}
+textarea#commentsection{
+	position: absolute;
+	top: 1275px;
+	left:5%;
+	width:90%;
+	height: 100px;
+	border:1px;
+	border-style: solid;
+	border-color: black;
+	background-color:#EBF5FF;
+	font-size: 15px;
+}
+input#name{
+	position: absolute;
+	top: 1200px;
+	left:5%;
+	width:90%;
+	height: 35px;
+	border:1px;
+	border-style: solid;
+	border-color: black;
+	background-color:#EBF5FF;
+	font-size: 15px;
+
+}
+input#submitbutton1{
+	cursor:pointer;
+	position: absolute;
+	text-align: center;
+	top: 1400px;
+	width: 20%;
+	height:25px;
+	left:10%;
+	background-color: #6b6dbb;
+	color: white;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+#leftp2{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 500px;
+	width: 70%;
+}
+#newcomment{
+	position: relative;
+	top: 0px;
+	left:5%;
+	width: 70%;
+	height: auto;
+	padding-bottom: 25px;
+}
+#signup1{
+	position: absolute;
+	top: 50px;
+	left: 10%;
+	font-size: 30px;
+	width: 90%;
+	height: auto;
+	font-family: Tahoma;
+	text-decoration: bold;
+}
+.boxdesign1{
+	border:1px;
+	border-style: solid;
+	border-color: black;
+	width:350px;
+	height:35px;
+	padding-left:3%;
+	background-color:#EBF5FF;
+	font-family: Segoe UI light;
+}
+input#submitbutton3{
+	cursor:pointer;
+	position: absolute;
+	text-align: center;
+	top: 1400px;
+	width: 20%;
+	height:25px;
+	left:40%;
+	display: block;
+	background-color: #6b6dbb;
+	color: white;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+input#submitbutton2{
+	cursor:pointer;
+	position: absolute;
+	top: 600px;
+	width: 20%;
+	height:25px;
+	background-color: #6b6dbb;
+	color: white;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+#dynamic_content{
+	position: absolute;
+	top: 17%;
+	left: 60%;
+	width: 100px;
+	height: 25px;
+}
+#footer{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #6E6E6E;
+}
+#WelcomeUser{
+	position: relative;
+	height: auto;
+	width: 80%;
+	top: 10px;
+	left: 10%;
+	font-family: Segoe UI light;
+	font-size: 20px;
+	color: blue;
+	text-align: center;
+}
+input#Logout{
+	cursor:pointer;
+	position: absolute;
+	text-align: center;
+	top: 50px;
+	width: 50%;
+	height:25px;
+	left:25%;
+	background-color: #6b6dbb;
+	color: white;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+#new{
+	 position: absolute;
+	 top: 100px;
+	 left: 10%;
+	 width: 80%;
+}
+table#table{
+	position: relative;
+	top: 50px;
+	width: 40%;
+	left: 10%;
+	outline: none;
+}
+.int{
+	font-size: 25px;
+	font-family: Segoe UI light;
+	line-height: 50px;
+	color: blue;
+}
+.cont{
+	font-size: 20px;
+	font-family: Segoe UI light;
+	color:black;
+	text-decoration:none;
+}
+.cont2{
+	position:relative;
+	font-size: 18px;
+	font-family: Segoe UI light;
+	color:black;
+	left:5%;
+	width:90%;
+}
+#PostArea{
+	position: absolute;
+	width: 90%;
+	left:5%;
+	top: 5%;
+	height: auto;
+}
+#PostBtn{
+	cursor:pointer;
+	position: absolute;
+	top:185px;
+	width: 20%;
+	height:25px;
+	background-color: #6b6dbb;
+	color: white;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+textarea#PostSection{
+	position: absolute;
+	width:90%;
+	height: 100px;
+	background-color:#EBF5FF;
+	color:black;
+	font-size: 15px;
+	border:1px;
+	border-style: solid;
+	border-color: black;
+}
+#posts{
+	position:absolute;
+	top:50px;
+	left:5%;
+	width:90%;
+	background-color:#EBF5FF;
+	height:auto;
+	border:1px;
+	border-style: solid;
+	border-color: black;
+}
+#area{
+	position:absolute;
+	top: 2%;
+	width:94%;
+	left:3%;
+}
